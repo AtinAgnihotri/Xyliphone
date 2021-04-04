@@ -10,9 +10,19 @@ class ViewController: UIViewController {
     }
 
     @IBAction func keyPressed(_ sender: UIButton) {
-        let notePressed = sender.currentTitle
+        let notePressed = sender.currentTitle!
         print("\(notePressed) Note Pressed")
-        playSound(note: notePressed!)
+        playSound(note: notePressed)
+        timedAnimation(senderBtn: sender)
+    }
+    
+    func timedAnimation(senderBtn : UIButton) {
+        senderBtn.alpha = 0.5
+        let delayInSeconds = 0.2
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + delayInSeconds) {
+            senderBtn.alpha = 1
+        }
+        
     }
     
     func playSound(note : String) {

@@ -15,6 +15,7 @@
 		49F0704726185CD000B89290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F0704526185CD000B89290 /* LaunchScreen.storyboard */; };
 		49F0705226185CD100B89290 /* XyliphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0705126185CD100B89290 /* XyliphoneTests.swift */; };
 		49F0705D26185CD100B89290 /* XyliphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0705C26185CD100B89290 /* XyliphoneUITests.swift */; };
+		49F0706E2619FD5600B89290 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 49F0706D2619FD5600B89290 /* Sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		49F0705826185CD100B89290 /* XyliphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XyliphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F0705C26185CD100B89290 /* XyliphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XyliphoneUITests.swift; sourceTree = "<group>"; };
 		49F0705E26185CD100B89290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F0706D2619FD5600B89290 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = "../../../../Downloads/ios 4/Sounds"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				49F0704026185CCC00B89290 /* Main.storyboard */,
 				49F0704326185CD000B89290 /* Assets.xcassets */,
 				49F0704526185CD000B89290 /* LaunchScreen.storyboard */,
+				49F0706D2619FD5600B89290 /* Sounds */,
 				49F0704826185CD000B89290 /* Info.plist */,
 			);
 			path = Xyliphone;
@@ -233,6 +236,7 @@
 			files = (
 				49F0704726185CD000B89290 /* LaunchScreen.storyboard in Resources */,
 				49F0704426185CD000B89290 /* Assets.xcassets in Resources */,
+				49F0706E2619FD5600B89290 /* Sounds in Resources */,
 				49F0704226185CCC00B89290 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
